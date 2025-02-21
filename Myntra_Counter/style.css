@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.images{
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.options{
+    padding-top: 30px;
+}
+
+.but ,.pro{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.searchbar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.profile{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.middle{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center ;
+    background-color: beige;
+}
+
+.btn-price{
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    padding: 5px ;
+    height: 50px;
+    margin-left: 20px;
+}
